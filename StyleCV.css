@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+	font-family: 'Poppins', sans-serif;
+	margin:0 ;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+header{
+background-color:#E9BCBC ;
+width: 100%;
+position: fixed;
+z-index: 999;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 200px;
+}
+.logo{
+
+	text-decoration: none;
+	color: blanchedalmond;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 20px;
+}
+.navig a{
+color: blanchedalmond;
+text-decoration: none;
+font-size: 16px;
+font-weight: 200;
+padding-left: 30px;
+}
+
+.navig a:hover{
+
+	color: pink;
+}
+section{
+
+padding:100px 200px ;
+
+}
+.main{
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	background-color: #F8F9F9;
+	background-position: center;
+background-attachment: fixed;
+}
+.main h2{
+
+	font-size: 30px;
+}
+.main-btn {
+
+   display: inline-block;
+   padding: 16px 6px ;
+   color: #b5838d;
+   letter-spacing: 1px;
+   text-decoration: none;
+   background-color: #fcd5ce;
+   border-radius: 10px ;
+   font-size: 13px;
+   overflow: hidden ;
+   transition: 0.2s;
+
+   
+}
+.main-btn:hover{
+
+	color: #255784;
+	background: #fcd5ce;
+	box-shadow: 0 0 10px #fec5bb , 0 0 40px #fec5bb , 0 0 80px #fec5bb ;
+	transition-delay: 20ms;
+}
+.social-icons{
+    color: black;
+    font-size: 30px;
+    padding: 12px;
+
+}
+
+
+.title{
+	display: flex;
+	justify-content: center;
+	color: black;
+	font-size: 30px;
+	font-weight: 50px;
+	margin-bottom: 60px;
+}
+.content{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+}
+.c1{
+	background-color: #fcd5ce;
+	width: AUTO;
+	box-shadow: 0 7px 20px rgba(1, 1, 1, 0.15);
+border-radius: 10px;
+padding: 20px;
+margin: 50px ;
+transition: 0.5s ease;
+}
+.c1:hover{
+transform: scale(1.1);
+}
+
+.icons{
+
+	color: blanchedalmond;
+	font-size: 40px;
+	font-weight: 30px;
+	margin: 10px;
+	text-align: center;
+}
+.info{
+	text-align: center;
+}
+
+.foter{
+	text-align: left;
+	color: black;
+	font-size: 15px;
+	font-family: ;
+	
+
+}
+
